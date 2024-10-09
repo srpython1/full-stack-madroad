@@ -1,0 +1,144 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades CSS Ejemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.5;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border: none;
+        }
+
+        ul {
+            list-style-type: square;
+            padding: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: #007BFF; /* Color de fondo para el encabezado */
+            color: white; /* Color del texto */
+            padding: 10px;
+            text-align: left;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        caption {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .propiedades {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MI TAREA</h1>
+                   <p>ESPERO HABERLO HECHO BIEN.</p>
+
+    <h2>Tema 1 - Texto</h2>
+    <div class="propiedades">
+      
+        <table>
+            <tr><th>Propiedad</th><th>Valor Inicial</th><th>Descripción</th></tr>
+            <tr><td>color</td><td>black</td><td>Establece el color del texto.</td></tr>
+            <tr><td>font-family</td><td>serif</td><td>Define la fuente del texto.</td></tr>
+            <tr><td>font-size</td><td>medium</td><td>Establece el tamaño de la fuente.</td></tr>
+            <tr><td>font-weight</td><td>normal</td><td>Define el grosor del texto (normal, bold, etc.).</td></tr>
+            <tr><td>font-style</td><td>normal</td><td>Define el estilo de la fuente (normal, italic, etc.).</td></tr>
+            <tr><td>font-variant</td><td>normal</td><td>Define si el texto debe ser en versalitas.</td></tr>
+            <tr><td>font</td><td>normal</td><td>Propiedad shorthand para varias propiedades de fuente.</td></tr>
+            <tr><td>text-align</td><td>left</td><td>Define la alineación del texto (left, right, center, justify).</td></tr>
+            <tr><td>line-height</td><td>normal</td><td>Establece la altura de línea del texto.</td></tr>
+            <tr><td>text-decoration</td><td>none</td><td>Define la decoración del texto (underline, overline, etc.).</td></tr>
+            <tr><td>text-transform</td><td>none</td><td>Controla la capitalización del texto (uppercase, lowercase, capitalize).</td></tr>
+            <tr><td>vertical-align</td><td>baseline</td><td>Controla la alineación vertical de elementos en línea.</td></tr>
+            <tr><td>text-indent</td><td>0</td><td>Establece la sangría del primer renglón de un bloque de texto.</td></tr>
+            <tr><td>letter-spacing</td><td>normal</td><td>Controla el espaciado entre letras.</td></tr>
+            <tr><td>word-spacing</td><td>normal</td><td>Controla el espaciado entre palabras.</td></tr>
+            <tr><td>white-space</td><td>normal</td><td>Controla cómo se maneja el espacio en blanco en el texto.</td></tr>
+        </table>
+    </div>
+
+    <h2>Tema 2 - Enlaces</h2>
+    <div class="propiedades">
+        <table>
+            <tr><th>Característica</th><th>Propiedades</th><th>Descripción</th></tr>
+            <tr><td>Tamaño, Color y Decoración</td><td>color, font-size, text-decoration</td><td>Establecen el color, tamaño y decoración del enlace.</td></tr>
+            <tr><td>Decoración Personalizada</td><td>background, border, padding</td><td>Permiten personalizar el estilo de los enlaces.</td></tr>
+        </table>
+    </div>
+
+    <h2>Tema 3 - Imágenes</h2>
+    <div class="propiedades">
+        <table>
+            <tr><th>Característica</th><th>Propiedades</th><th>Descripción</th></tr>
+            <tr><td>Anchura y Altura</td><td>width, height</td><td>Definen el tamaño de la imagen.</td></tr>
+            <tr><td>Eliminar el Borde</td><td>border</td><td>Se establece a none para eliminar bordes en imágenes.</td></tr>
+        </table>
+    </div>
+
+    <h2>Tema 4 - Listas</h2>
+    <div class="propiedades">
+        <table>
+            <tr><th>Propiedad</th><th>Valor Inicial</th><th>Descripción</th></tr>
+            <tr><td>list-style-type</td><td>disc</td><td>Define el estilo de los marcadores de lista.</td></tr>
+            <tr><td>list-style-position</td><td>outside</td><td>Define la posición de los marcadores (inside, outside).</td></tr>
+            <tr><td>list-style-image</td><td>none</td><td>Define una imagen como marcador de lista.</td></tr>
+            <tr><td>list-style</td><td>none</td><td>Propiedad shorthand para las anteriores.</td></tr>
+        </table>
+    </div>
+
+    <h2>Tema 5 - Tablas</h2>
+    <div class="propiedades">
+        <table>
+            <tr><th>Propiedad</th><th>Se Aplica a</th><th>Valor Inicial</th><th>Descripción</th></tr>
+            <tr><td>border-collapse</td><td>&lt;table&gt;</td><td>separate</td><td>Controla el colapso de los bordes de la tabla.</td></tr>
+            <tr><td>border-spacing</td><td>&lt;table&gt;</td><td>0</td><td>Define el espacio entre las celdas de la tabla.</td></tr>
+            <tr><td>empty-cells</td><td>&lt;table&gt;</td><td>show</td><td>Controla la visualización de las celdas vacías.</td></tr>
+            <tr><td>caption-side</td><td>&lt;caption&gt;</td><td>top</td><td>Define la posición del título de la tabla (top, bottom).</td></tr>
+        </table>
+    </div>
+
+    
+</body>
+
+</html>
